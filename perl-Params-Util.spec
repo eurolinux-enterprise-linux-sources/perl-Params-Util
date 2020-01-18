@@ -1,6 +1,6 @@
 Name:		perl-Params-Util
 Version:	1.07
-Release:	4%{?dist}
+Release:	6%{?dist}
 Summary:	Simple standalone parameter-checking functions
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -49,6 +49,12 @@ make test AUTOMATED_TESTING=1
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.07-6
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.07-5
+- Mass rebuild 2013-12-27
+
 * Tue Aug 14 2012 Petr Pisar <ppisar@redhat.com> - 1.07-4
 - Specify all dependencies
 
